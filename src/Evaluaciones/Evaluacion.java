@@ -4,24 +4,28 @@
  */
 package Evaluaciones;
 
+import Docentes.Docentes;
+
 /**
  *
  * @author Farid
  */
 public class Evaluacion {
-    public Docente Docente;
+    public Docentes Docente;
     public String curso;
-    public int nota;
+    public int nota[];
     public String observaciones;
     
     public String EvaluacionSatisfactoria() {
-         if (nota > 8){
-             return "La evaluacion se considera satisfactoria";
+        for (int i = 0; i < 100; i++) {
+            if (nota[i] > 8){
+                 return "La evaluacion se considera satisfactoria";
+            }
          }
-         return "La evaluacion no es satisfactoria";
+        return "La evaluacion no es satisfactoria";
     } 
 
-    public Docente getDocente() {
+    public Docentes getDocente() {
         return Docente;
     }
 
@@ -29,7 +33,7 @@ public class Evaluacion {
         return curso;
     }
 
-    public int getNota() {
+    public int[] getNota() {
         return nota;
     }
 
@@ -45,7 +49,7 @@ public class Evaluacion {
         this.observaciones = observaciones;
     }
 
-    public Evaluacion(Docente Docente, String curso, int nota, String observaciones) {
+    public Evaluacion(Docentes Docente, String curso, int[] nota, String observaciones) {
         this.Docente = Docente;
         this.curso = curso;
         this.nota = nota;

@@ -14,7 +14,11 @@ public class Curso {
     public int codigo;
     public String nombre;
     public String grupo;
+<<<<<<< Updated upstream
     public Docentes Docente;
+=======
+    public Docentes Docentes;
+>>>>>>> Stashed changes
 
     public int getCodigo() {
         return codigo;
@@ -29,23 +33,31 @@ public class Curso {
     }
 
     public Docentes getDocente() {
+<<<<<<< Updated upstream
         return Docente;
+=======
+        return Docentes;
+>>>>>>> Stashed changes
     }
 
     public void setGrupo(String grupo) {
         this.grupo = grupo;
     }
 
+<<<<<<< Updated upstream
     public Curso(int codigo, String nombre, String grupo, Docentes Docente) {
+=======
+    public Curso(int codigo, String nombre, String grupo, Docentes Docentes) {
+>>>>>>> Stashed changes
         this.codigo = codigo;
         this.nombre = nombre;
         this.grupo = grupo;
-        this.Docente = Docente;
+        this.Docentes = Docentes;
     }
 
     @Override
     public String toString() {
-        return "Curso{" + "codigo=" + codigo + ", nombre=" + nombre + ", grupo=" + grupo + ", Docente=" + Docente + '}';
+        return "Curso{" + "codigo=" + codigo + ", nombre=" + nombre + ", grupo=" + grupo + ", Docente=" + Docentes + '}';
     }
     
 }
