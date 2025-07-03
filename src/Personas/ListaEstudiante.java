@@ -3,21 +3,27 @@ package Personas;
 
 import Listas.Lista;
 
-public class ListaEstudiante {
+public class ListaEstudiante implements Lista{
     
     
-    public Lista find(Object nombre){
+    @Override
+    public boolean find(Object nombre){
         
-        return null;
+        
+        return false;
+        
+        
     }
-    public Lista add(Estudiante t){
+    @Override
+    public boolean add(Object t){
         
-        return null;
+        return false;
         
     }
-    public Lista remove(Estudiante t){
+    @Override
+    public boolean remove(Object t){
         
-        return null;
+        return false;
         
     }
     
