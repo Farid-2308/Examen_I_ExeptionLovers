@@ -26,3 +26,4 @@ public class ListaCurso implements Lista {
       
       // podes terminar esta mica vos o no?
 }
+      // yo no puedo hacer lo de otros y xq todo da error?
