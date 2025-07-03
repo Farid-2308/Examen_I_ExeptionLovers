@@ -1,7 +1,6 @@
 package Cursos;
 //Debe retornar la lista de cursos impartidos por un docente especifico.
 
-import Docentes.Docentes;
 import Listas.Lista;
 public class ListaCurso implements Lista {
 
@@ -19,11 +18,14 @@ public class ListaCurso implements Lista {
     public boolean remove(Object t) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
-      private static Docentes[] Docente;
-      private static Curso[] cursos;
+     
+      String[] cursos;
+      String docente;
       
-      public static String[] CursosDocente(){
-      
-      
+      public String[] CursosDocente(String docentes){
+      if (docente.equals(docentes) ){
+          return cursos;
+    }   
+     return null;
+      }
 }
-      // yo no puedo hacer lo de otros y xq todo da error?   // maldito jueperra y no se porque hay errores si lit no hay ninguno

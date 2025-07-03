@@ -12,16 +12,13 @@ import Personas.Persona;
         this.departamento = departamento;
     }
 
-    public Docentes(int cedula, String nombre, String departamento) {
-        
-        this.nombre = nombre;
+    public Docentes(String departamento, String cedula, String nombre) {
+        super(cedula, nombre);
         this.departamento = departamento;
     }
-
+    
     @Override
     public String toString() {
         return "Docentes{" + "departamento=" + departamento + '}';
     }
-    
-    
-    }  
+ }  

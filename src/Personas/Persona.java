@@ -10,7 +10,7 @@ package Personas;
  */
 public abstract class Persona {
     protected String cedula;
-    protected String nombre;
+    public String nombre;
 
     public String getCedula() {
         return cedula;

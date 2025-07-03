@@ -49,10 +49,14 @@ public class Evaluacion {
         this.observaciones = observaciones;
     }
 
-    public Evaluacion(Docentes Docente, String curso, int[] nota, String observaciones) {
+
+    
+
+    public Evaluacion(Docentes Docente, String curso, int nota, String observaciones) {
+
         this.Docente = Docente;
         this.curso = curso;
-        this.nota = nota;
+       
         this.observaciones = observaciones;
     }
 
