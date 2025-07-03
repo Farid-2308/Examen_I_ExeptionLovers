@@ -8,6 +8,26 @@ package Personas;
  *
  * @author Student
  */
-public class Persona {
+public abstract class Persona {
+    protected String cedula;
+    protected String nombre;
+
+    public String getCedula() {
+        return cedula;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Persona(String cedula, String nombre) {
+        this.cedula = cedula;
+        this.nombre = nombre;
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{"+" nombre=" + nombre + '}';
+    }
     
 }
