@@ -14,18 +14,15 @@ public class Curso {
     public int codigo;
     public String nombre;
     public String grupo;
-
     public Docentes Docente;
     
-
     public int getCodigo() {
         return codigo;
     }
-
+    
     public String getNombre() {
         return nombre;
     }
-
     public String getGrupo() {
         return grupo;
     }
@@ -33,11 +30,9 @@ public class Curso {
     public Docentes getDocente() {
         return Docente;
     }
-
     public void setGrupo(String grupo) {
         this.grupo = grupo;
     }
-
 
     public Curso(int codigo, String nombre, String grupo, Docentes Docente) {
         this.codigo = codigo;
@@ -45,6 +40,7 @@ public class Curso {
         this.grupo = grupo;
         this.Docente = Docente;
     }
+
 
     @Override
     public String toString() {
