@@ -14,11 +14,15 @@ public class Curso {
     public int codigo;
     public String nombre;
     public String grupo;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     public Docentes Docente;
 =======
     public Docentes Docentes;
 >>>>>>> Stashed changes
+=======
+    public Docentes Docentes;
+>>>>>>> Ramas
 
     public int getCodigo() {
         return codigo;
@@ -33,22 +37,30 @@ public class Curso {
     }
 
     public Docentes getDocente() {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         return Docente;
 =======
         return Docentes;
 >>>>>>> Stashed changes
+=======
+        return Docentes;
+>>>>>>> Ramas
     }
 
     public void setGrupo(String grupo) {
         this.grupo = grupo;
     }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     public Curso(int codigo, String nombre, String grupo, Docentes Docente) {
 =======
     public Curso(int codigo, String nombre, String grupo, Docentes Docentes) {
 >>>>>>> Stashed changes
+=======
+    public Curso(int codigo, String nombre, String grupo, Docentes Docentes) {
+>>>>>>> Ramas
         this.codigo = codigo;
         this.nombre = nombre;
         this.grupo = grupo;
