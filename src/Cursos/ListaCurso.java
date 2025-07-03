@@ -24,6 +24,6 @@ public class ListaCurso implements Lista {
       
       public static String[] CursosDocente(){
       
-      // podes terminar esta mica vos o no?
+      
 }
-      // yo no puedo hacer lo de otros y xq todo da error?
+      // yo no puedo hacer lo de otros y xq todo da error?   // maldito jueperra y no se porque hay errores si lit no hay ninguno
