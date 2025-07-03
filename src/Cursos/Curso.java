@@ -4,6 +4,8 @@
  */
 package Cursos;
 
+import Docentes.Docentes;
+
 /**
  *
  * @author Farid
@@ -12,7 +14,7 @@ public class Curso {
     public int codigo;
     public String nombre;
     public String grupo;
-    public Docente Docente;
+    public Docentes Docentes;
 
     public int getCodigo() {
         return codigo;
@@ -26,24 +28,24 @@ public class Curso {
         return grupo;
     }
 
-    public Docente getDocente() {
-        return Docente;
+    public Docentes getDocente() {
+        return Docentes;
     }
 
     public void setGrupo(String grupo) {
         this.grupo = grupo;
     }
 
-    public Curso(int codigo, String nombre, String grupo, Docente Docente) {
+    public Curso(int codigo, String nombre, String grupo, Docentes Docentes) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.grupo = grupo;
-        this.Docente = Docente;
+        this.Docentes = Docentes;
     }
 
     @Override
     public String toString() {
-        return "Curso{" + "codigo=" + codigo + ", nombre=" + nombre + ", grupo=" + grupo + ", Docente=" + Docente + '}';
+        return "Curso{" + "codigo=" + codigo + ", nombre=" + nombre + ", grupo=" + grupo + ", Docente=" + Docentes + '}';
     }
     
 }
