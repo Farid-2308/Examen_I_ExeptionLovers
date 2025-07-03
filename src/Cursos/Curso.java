@@ -4,6 +4,8 @@
  */
 package Cursos;
 
+import Docentes.Docentes;
+
 /**
  *
  * @author Farid
@@ -12,7 +14,7 @@ public class Curso {
     public int codigo;
     public String nombre;
     public String grupo;
-    public Docente Docente;
+    public Docentes Docente;
 
     public int getCodigo() {
         return codigo;
@@ -26,7 +28,7 @@ public class Curso {
         return grupo;
     }
 
-    public Docente getDocente() {
+    public Docentes getDocente() {
         return Docente;
     }
 
@@ -34,7 +36,7 @@ public class Curso {
         this.grupo = grupo;
     }
 
-    public Curso(int codigo, String nombre, String grupo, Docente Docente) {
+    public Curso(int codigo, String nombre, String grupo, Docentes Docente) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.grupo = grupo;
